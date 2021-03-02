@@ -1,0 +1,10 @@
+<div class="carousal" *ngIf="usersData.length>0">
+    <button (click)="shift('left')">left</button>
+    <div class="cardList">
+        <span *ngFor="let user of shownData">
+            <app-card (userInfoChange)="emitChanges($event)" [userInfo]="user">
+            </app-card>
+        </span>
+    </div>
+    <button (click)="shift('right')">right</button>
+</div>

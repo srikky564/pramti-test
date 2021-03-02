@@ -1,0 +1,7 @@
+<div class="card" (click)="changeUser(userInfo.avatar_url)">
+    <img [src]="userInfo.avatar_url" alt="userimage">
+    <div class="card-info">
+        <span>Login:{{userInfo.login}}</span>
+        <span>User:{{userInfo.type}}</span>
+    </div>
+</div>

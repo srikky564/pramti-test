@@ -1,0 +1,12 @@
+.carousal {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    align-items: center;
+}
+
+.cardList {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+}
